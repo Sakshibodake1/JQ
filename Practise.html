@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+<link rel="stylesheet" href="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css" />
+<script src="https://code.jquery.com/jquery-1.11.1.min.js"></script>
+<script src="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+<style>
+    h2{
+        color: purple;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+</style>
+</head>
+<body>
+    <div data-role="page">
+        <div data-role="header" data-theme="b">
+            <h1>Sakshi</h1>
+        </div>
+        <div data-role="navbar" data-grid="c">
+        <ul>
+            <li><a href="idex.html" class="ui-btn-active">Home</a></li>
+            <li><a href="#" >About</a></li>
+            <li><a href="#">Products</a></li>
+            <li><a href="C:\Users\Sakshi\OneDrive\Documents\WAD Practical\jQuery\login.html">Login/Register</a></li>
+           </ul>
+            </div><!-- /navbar -->
+           <center><h2>Products</h2></center> 
+            <div class="content">
+                <center>
+                <div class="rows">
+                    <div>
+
+                        <img src="https://tse4.mm.bing.net/th?id=OIP.zvTH42gSclJtNydj25IWbAHaE7&pid=Api&P=0&h=220" alt="Sakshi">
+                        <img src="https://tse4.mm.bing.net/th?id=OIP.zvTH42gSclJtNydj25IWbAHaE7&pid=Api&P=0&h=220" alt="Sakshi">
+                        <img src="https://tse4.mm.bing.net/th?id=OIP.zvTH42gSclJtNydj25IWbAHaE7&pid=Api&P=0&h=220" alt="Sakshi">
+                    </div>
+                </div>
+                <br>
+                <div class="rows">
+                    <div>
+
+                        <img src="https://tse4.mm.bing.net/th?id=OIP.zvTH42gSclJtNydj25IWbAHaE7&pid=Api&P=0&h=220" alt="Sakshi">
+                        <img src="https://tse4.mm.bing.net/th?id=OIP.zvTH42gSclJtNydj25IWbAHaE7&pid=Api&P=0&h=220" alt="Sakshi">
+                        <img src="https://tse4.mm.bing.net/th?id=OIP.zvTH42gSclJtNydj25IWbAHaE7&pid=Api&P=0&h=220" alt="Sakshi">
+                    </div>
+                </div>
+                <br>
+                <div class="rows">
+                    <div>
+
+                        <img src="https://tse4.mm.bing.net/th?id=OIP.zvTH42gSclJtNydj25IWbAHaE7&pid=Api&P=0&h=220" alt="Sakshi">
+                        <img src="https://tse4.mm.bing.net/th?id=OIP.zvTH42gSclJtNydj25IWbAHaE7&pid=Api&P=0&h=220" alt="Sakshi">
+                        <img src="https://tse4.mm.bing.net/th?id=OIP.zvTH42gSclJtNydj25IWbAHaE7&pid=Api&P=0&h=220" alt="Sakshi">
+                    </div>
+                </div>
+                <br>
+            </center>
+            <form>
+               <div class="ui-field-contain">
+                    <label for="flip-6">Are you enjoying learning our website?</label>
+                    <select name="flip-6" id="flip-6" data-role="flipswitch">
+                    <option value="no">No</option>
+                    <option value="yes">Yes</option>
+                    </select>
+                </div>
+                </form>
+            </div>
+
+        <div data-role="footer" data-theme="b">
+            <div class="quicklimks">
+                <center><h3>Quick Links</h3>
+                <li><a href="idex.html">Home</a></li> <br><br>
+                <li><a href="#" >About</a></li> <br><br>
+                <li><a href="#">Products</a></li>   <br><br>
+                <li><a href="#">Login/Register</a></li> <br><br>
+                <p>Copyright 2024 | Sakshi, All Rights Reserved</p>
+    
+            </div>
+                            </center>
+        </div>
+        </div>
+        <script>
+        // Bind to the navigate event
+$( window ).on( "navigate", function() {
+	console.log( "navigated!" );
+});
+
+// Bind to the click of the example link
+$( "#event-example" ).click(function( event ) {
+	event.preventDefault();
+	location.hash = "foo";
+});
+    </script>
+    
+</body>
+</html>
